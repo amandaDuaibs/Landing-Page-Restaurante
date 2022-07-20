@@ -4,7 +4,7 @@
 .menu {
   padding: 20px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-   padding: 20px $padding-horizontal-mobile;
+    padding: 20px $padding-horizontal-mobile;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 20px $padding-horizontal-sm;
@@ -54,13 +54,5 @@
     color: $dark;
     font-size: 3rem;
     margin-bottom: 30px;
-  }
-  &__filtros {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    width: 100%;
   }
 }
