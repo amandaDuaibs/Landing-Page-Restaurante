@@ -1,9 +1,9 @@
 import styles from './Prato.module.scss';
 import { useParams, useNavigate, Routes, Route } from 'react-router-dom';
 import cardapio from 'data/cardapio.json';
-import TagsPrato from 'components/TagsPrato';
+import TagsPrato from 'Components/TagsPrato/index';
 import NotFound from 'pages/NotFound';
-import PaginaPadrao from 'components/PaginaPadrao';
+import PaginaPadrao from 'Components/PaginaPadrao';
 
 export default function Prato() {
   const { id } = useParams();

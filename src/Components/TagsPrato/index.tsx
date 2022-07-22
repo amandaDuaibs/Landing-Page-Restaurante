@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { Prato } from 'types/Prato';
-import styles from './TagsPrato.module.scss';
+import styles from '../../Components/TagsPrato/TagsPrato.module.scss';
 
 export default function TagsPrato({
   category,
