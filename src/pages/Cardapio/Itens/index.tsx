@@ -47,6 +47,6 @@ export default function Itens(props: Props) {
       {lista.map(item => (
         <Item key={item.id} {...item} />
       ))}
-    </div>
+    </div> 
   );
 }
